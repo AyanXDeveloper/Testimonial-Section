@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0A69ED;
+    padding: 30px;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "BBH Bogle", sans-serif;
+    letter-spacing: 5px;
+}
+
+.main {
+    padding-top: 50px;
+    width: 100%;
+    height: fit-content;
+}
+
+.review-card {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    width: 45%;
+    height: fit-content;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.review {
+    color: rgb(171, 170, 170);
+    padding: 30px 30px 10px 30px;
+    font-size: 20px;
+    line-height: 35px;
+    font-family: "Google Sans", sans-serif;
+}
+
+.btns{
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 20px 18px 20px 18px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    background-color: #fff;
+    border-radius: 100px;
+    border: none;
+    outline: none;
+}
+
+.btn:hover{
+    background-color: #f0f0f0;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+
+.btn-prev{
+    margin-left: -50px;
+}
+
+.btn-next{
+    margin-right: -50px;
+}
+
+.profile-img{
+    width: 70px;
+    border-radius: 100px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+
+.name {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Google Sans", sans-serif;
+}
+
+.position {
+    color: rgb(171, 170, 170);
+    font-family: "Google Sans", sans-serif;
+    font-weight: 400;
+}
